@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\dependencies\glad\src\glad.c">
+      <Filter>dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\Texture2D.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\Window.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Dungeon.cpp" />
+    <ClCompile Include="..\framework\Model.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\framework\error.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\BufferBase.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\glmmath.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\IndexBuffer.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\Program.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\Shader.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\Texture2D.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\Timer.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\type_conversion.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\VertexArrayObject.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\VertexBuffer.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\Uniform.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\Window.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Dungeon.h" />
+    <ClInclude Include="..\framework\Model.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="framework">
+      <UniqueIdentifier>{5fe3cd50-5feb-4ded-bfca-127f6164842a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{21161fc1-fe95-438c-9b55-c0aa5130c336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{8194e18f-a993-4135-a174-b1e87d3852e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\phong.vert">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\phong.frag">
+      <Filter>shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
